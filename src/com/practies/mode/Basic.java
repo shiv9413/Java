@@ -21,5 +21,6 @@ public class Basic {
 		System.out.print(3+3+3+3+3);
 		
 		/* Next Topic Start With Java Variables */
+		
 	}
 }
