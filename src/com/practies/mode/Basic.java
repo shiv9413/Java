@@ -30,5 +30,22 @@ public class Basic {
 		
 		System.out.println("First Name is "+firstname+" Middle Name is "+middlename+" Last Name is "+lastname);
 		
+		int digit_1 = 10;
+		int digit_2 = 20;
+		int sum = digit_1 + digit_2;
+		int sub = digit_1 - digit_2;
+		int multi = digit_1 * digit_2;
+		
+		System.out.println("The Addtion of digit_1 "+digit_1+" and digit_2 "+digit_2+" is = "+sum);
+		System.out.println("The Subtraction of digit_1 "+digit_1+" and digit_2 "+digit_2+" is = "+sub);
+		System.out.println("The Multiplication of digit_2 "+digit_1+" and digit_2 "+digit_2+" is = "+multi);
+		
+		float myfloatnumber = 10.3f;
+		
+		System.out.println("Float number is "+myfloatnumber);
+		
+		char word = 'D';
+		
+		System.out.println("Character number is "+word);
 	}
 }
