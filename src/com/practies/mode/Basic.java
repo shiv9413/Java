@@ -47,5 +47,7 @@ public class Basic {
 		char word = 'D';
 		
 		System.out.println("Character number is "+word);
+		
+		//https://www.scaler.com/topics/currency-converter-java-project/
 	}
 }
