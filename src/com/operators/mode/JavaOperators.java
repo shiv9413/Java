@@ -6,5 +6,73 @@ public class JavaOperators {
 		System.out.println("Which Operation you want to perform");
 		System.out.println("1 for Arthmetic operations");
 		System.out.println("2 for Assignment Operations");
+		System.out.println("3 for Bitwise Operations");
+		
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Enter Your Choice");
+		
+		int choice = sc.nextInt();
+		
+		switch(choice) {
+		   case 1:
+			   callArthmeticFunction();
+			   break;
+		   case 2:
+			   callAssignmentFunction();
+			   break;
+		   case 3:
+			   callBitwiseFunction();
+			   break;
+		   default:
+				System.out.println("Invalid Input entered by You");
+		}
+	}
+	
+	public static void callArthmeticFunction(){
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Enter First Number");
+		int first = sc.nextInt();
+		
+		System.out.println("Enter Second Number");
+		int second = sc.nextInt();
+		
+		System.out.println("Select 1 For Addition");
+		System.out.println("Select 2 For Subtraction");
+		System.out.println("Select 3 For Multiplication");
+		System.out.println("Select 4 For Divide");
+		
+		System.out.println("Choice one for Arthmetic Operation");
+		int choice = sc.nextInt();
+		switch(choice) {
+			case 1:
+				int add = first + second;
+				System.out.print("Addition of Two Numbers is "+add);
+				break;
+			case 2:	
+				int sub = first - second;
+				System.out.print("Subtraction of Two Numbers is "+sub);
+				break;
+			case 3:	
+				int multi = first * second;
+				System.out.print("Multiplication of Two Numbers is "+multi);
+				break;
+			case 4:	
+				int divide = first / second;
+				System.out.print("Divide of Two Numbers is "+divide);
+				break;
+			default:
+				System.out.println("Invalid input entered by You");
+		}
+		
+	}
+	
+	public static void callAssignmentFunction(){
+		System.out.println("Hey Am Entered Assignement operation");
+	}
+	
+	public static void callBitwiseFunction(){
+		System.out.println("Hey Am Entered Bitwise operation");
 	}
 }
