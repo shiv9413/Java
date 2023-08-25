@@ -69,7 +69,20 @@ public class JavaOperators {
 	}
 	
 	public static void callAssignmentFunction(){
-		System.out.println("Hey Am Entered Assignement operation");
+		System.out.println("Enter a value of a");
+		
+		Scanner sc = new Scanner(System.in);
+		int a = sc.nextInt();
+		
+		System.out.println("Original value of a is "+a);
+		a+=3;
+		System.out.println("after increament value by 3 then value of a "+a);
+		a-=4;
+		System.out.println("after increment then descrease by 4 then value of a "+a);
+		a*=5;
+		System.out.println("after decrease then multi by 5 then value of a "+a);
+		a/=8;
+		System.out.println("after multi then divide by 8 then value of a "+a);
 	}
 	
 	public static void callBitwiseFunction(){
