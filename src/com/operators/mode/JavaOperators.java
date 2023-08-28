@@ -86,6 +86,19 @@ public class JavaOperators {
 	}
 	
 	public static void callBitwiseFunction(){
-		System.out.println("Hey Am Entered Bitwise operation");
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Enter First Operante");
+		int first = sc.nextInt();
+		
+		System.out.println("Enter Second Operante");
+		int second = sc.nextInt();
+		
+		System.out.println("When we perform Bitwise AND & "+(first & second));
+		System.out.println("When we perform Bitwise exclusive OR ^ "+(first ^ second));
+		System.out.println("When we perform Bitwise inclusive OR | "+(first | second));
+		System.out.println("When we perform Bitwise Compliment ~ "+(~second));
+		System.out.println("When we perform Bitwise left shift	<< "+(first << second));
+		System.out.println("When we perform Bitwise right shift	>> "+(first >> second));
 	}
 }
