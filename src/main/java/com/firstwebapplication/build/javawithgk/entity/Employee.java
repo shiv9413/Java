@@ -11,6 +11,7 @@ import jakarta.persistence.Table;
 @Table(name = "employee")
 public class Employee {
 	// id name email bloodgroup
+	// It will find from database
 	
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
